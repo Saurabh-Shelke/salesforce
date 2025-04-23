@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-23 15:39:11.593627",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "lb_sr_no",
+  "column_break_lskk",
+  "shift",
+  "model",
+  "section_break_uryw",
+  "template",
+  "checksheet_details",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_uryw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "template",
+   "fieldtype": "Link",
+   "label": "Template",
+   "options": "PDI CHECK SHEET 1"
+  },
+  {
+   "fieldname": "checksheet_details",
+   "fieldtype": "Table",
+   "label": "checksheet Details",
+   "options": "checkpoint 1"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "lb_sr_no",
+   "fieldtype": "Data",
+   "label": "L/B Sr NO."
+  },
+  {
+   "fieldname": "column_break_lskk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Select",
+   "label": "Shift",
+   "options": "\nDay\nNight"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "PDI SHEET 1",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-23 16:30:18.470063",
+ "modified_by": "Administrator",
+ "module": "client",
+ "name": "PDI SHEET 1",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,202 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-23 15:55:20.289294",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "load_body_model",
+  "load_body_no",
+  "column_break_zewu",
+  "date",
+  "time",
+  "section_break_0cuf",
+  "template",
+  "details",
+  "section_break_lfau",
+  "template1",
+  "details1",
+  "section_break_sdyt",
+  "template2",
+  "table_ksbc",
+  "section_break_kpwr",
+  "template3",
+  "details3",
+  "section_break_demk",
+  "template4",
+  "details4",
+  "section_break_snnk",
+  "template5",
+  "details5",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_0cuf",
+   "fieldtype": "Section Break",
+   "label": "Template"
+  },
+  {
+   "fieldname": "template",
+   "fieldtype": "Link",
+   "label": "Template",
+   "options": "Template List"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Table",
+   "label": "Details",
+   "options": "defects list"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_lfau",
+   "fieldtype": "Section Break",
+   "label": "Template 1"
+  },
+  {
+   "fieldname": "template1",
+   "fieldtype": "Link",
+   "label": "Template1",
+   "options": "Template List"
+  },
+  {
+   "fieldname": "details1",
+   "fieldtype": "Table",
+   "label": "Details1",
+   "options": "defects list"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_sdyt",
+   "fieldtype": "Section Break",
+   "label": "Template 2"
+  },
+  {
+   "fieldname": "template2",
+   "fieldtype": "Link",
+   "label": "Template2",
+   "options": "Template List"
+  },
+  {
+   "fieldname": "table_ksbc",
+   "fieldtype": "Table",
+   "label": "Details2",
+   "options": "defects list"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_kpwr",
+   "fieldtype": "Section Break",
+   "label": "Template 3"
+  },
+  {
+   "fieldname": "template3",
+   "fieldtype": "Link",
+   "label": "Template3",
+   "options": "Template List"
+  },
+  {
+   "fieldname": "details3",
+   "fieldtype": "Table",
+   "label": "Details3",
+   "options": "defects list"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_demk",
+   "fieldtype": "Section Break",
+   "label": "Template 4"
+  },
+  {
+   "fieldname": "template4",
+   "fieldtype": "Link",
+   "label": "Template4",
+   "options": "Template List"
+  },
+  {
+   "fieldname": "details4",
+   "fieldtype": "Table",
+   "label": "Details4",
+   "options": "defects list"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_snnk",
+   "fieldtype": "Section Break",
+   "label": "Template 5"
+  },
+  {
+   "fieldname": "template5",
+   "fieldtype": "Data",
+   "label": "Template5"
+  },
+  {
+   "fieldname": "details5",
+   "fieldtype": "Table",
+   "label": "Details5",
+   "options": "defects list"
+  },
+  {
+   "fieldname": "load_body_model",
+   "fieldtype": "Data",
+   "label": "LOAD BODY MODEL"
+  },
+  {
+   "fieldname": "load_body_no",
+   "fieldtype": "Data",
+   "label": "LOAD BODY NO"
+  },
+  {
+   "fieldname": "column_break_zewu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "label": "DATE"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "TIME"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Template Data",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-23 16:03:28.895682",
+ "modified_by": "Administrator",
+ "module": "client",
+ "name": "Template Data",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

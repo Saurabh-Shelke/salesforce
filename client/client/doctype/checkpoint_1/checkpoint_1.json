@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-23 15:40:53.537594",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "checkpoint",
+  "standardverification",
+  "measuring_method",
+  "observation",
+  "remark"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "checkpoint",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CheckPoint"
+  },
+  {
+   "columns": 2,
+   "fieldname": "standardverification",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Standard/Verification"
+  },
+  {
+   "columns": 2,
+   "fieldname": "measuring_method",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Measuring Method"
+  },
+  {
+   "columns": 2,
+   "fieldname": "observation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Observation"
+  },
+  {
+   "columns": 2,
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-23 15:42:46.097686",
+ "modified_by": "Administrator",
+ "module": "client",
+ "name": "checkpoint 1",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
