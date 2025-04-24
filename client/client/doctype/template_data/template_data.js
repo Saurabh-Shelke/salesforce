@@ -22,7 +22,7 @@ frappe.ui.form.on('Template Data', {
                         console.log("Template Details:", template_details);
 
                         // Clear existing table rows
-                        frm.clear_table('details');
+                        // frm.clear_table('details');
 
                         // Add rows from template
                         template_details.forEach(detail => {
@@ -77,7 +77,7 @@ frappe.ui.form.on('Template Data', {
                         console.log("Template Details:", template_details);
 
                         // Clear existing table rows
-                        frm.clear_table('details1');
+                        // frm.clear_table('details1');
 
                         // Add rows from template
                         template_details.forEach(detail => {
@@ -134,7 +134,7 @@ frappe.ui.form.on('Template Data', {
                         console.log("Template Details:", template_details);
 
                         // Clear existing table rows
-                        frm.clear_table('table_ksbc');
+                        // frm.clear_table('table_ksbc');
 
                         // Add rows from template
                         template_details.forEach(detail => {
@@ -190,7 +190,7 @@ frappe.ui.form.on('Template Data', {
                         console.log("Template Details:", template_details);
 
                         // Clear existing table rows
-                        frm.clear_table('details3');
+                        // frm.clear_table('details3');
 
                         // Add rows from template
                         template_details.forEach(detail => {
@@ -246,7 +246,7 @@ frappe.ui.form.on('Template Data', {
                         console.log("Template Details:", template_details);
 
                         // Clear existing table rows
-                        frm.clear_table('details4');
+                        // frm.clear_table('details4');
 
                         // Add rows from template
                         template_details.forEach(detail => {
@@ -302,7 +302,7 @@ frappe.ui.form.on('Template Data', {
                         console.log("Template Details:", template_details);
 
                         // Clear existing table rows
-                        frm.clear_table('details5');
+                        // frm.clear_table('details5');
 
                         // Add rows from template
                         template_details.forEach(detail => {

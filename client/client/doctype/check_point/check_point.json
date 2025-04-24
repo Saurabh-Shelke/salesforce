@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-24 09:43:08.582058",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "load_body_weld_number",
+  "paint_shade",
+  "paint_viscosity",
+  "dft_top_coat",
+  "gloss_value",
+  "baking_time_in",
+  "baking_time_out",
+  "total_baking_time",
+  "oven_temp",
+  "oven_operator",
+  "production_supervisor",
+  "quality_engineer",
+  "painter_name"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "DATE"
+  },
+  {
+   "columns": 1,
+   "fieldname": "load_body_weld_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "LOAD BODY WELD NUMBER"
+  },
+  {
+   "columns": 1,
+   "fieldname": "paint_shade",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PAINT SHADE"
+  },
+  {
+   "columns": 1,
+   "fieldname": "paint_viscosity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PAINT VISCOSITY"
+  },
+  {
+   "columns": 1,
+   "fieldname": "dft_top_coat",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DFT TOP COAT"
+  },
+  {
+   "columns": 1,
+   "fieldname": "gloss_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "GLOSS VALUE"
+  },
+  {
+   "columns": 1,
+   "fieldname": "baking_time_in",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "BAKING TIME IN"
+  },
+  {
+   "columns": 1,
+   "fieldname": "baking_time_out",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "BAKING TIME OUT"
+  },
+  {
+   "columns": 1,
+   "fieldname": "total_baking_time",
+   "fieldtype": "Time",
+   "in_list_view": 1,
+   "label": "TOTAL BAKING TIME"
+  },
+  {
+   "columns": 1,
+   "fieldname": "oven_temp",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "OVEN TEMP"
+  },
+  {
+   "columns": 1,
+   "fieldname": "oven_operator",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "OVEN OPERATOR"
+  },
+  {
+   "columns": 1,
+   "fieldname": "production_supervisor",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PRODUCTION SUPERVISOR"
+  },
+  {
+   "columns": 1,
+   "fieldname": "quality_engineer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "QUALITY ENGINEER"
+  },
+  {
+   "columns": 1,
+   "fieldname": "painter_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PAINTER NAME"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-24 09:49:22.903792",
+ "modified_by": "Administrator",
+ "module": "client",
+ "name": "Check Point",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

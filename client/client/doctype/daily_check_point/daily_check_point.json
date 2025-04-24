@@ -1,64 +1,44 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:template",
- "creation": "2025-04-23 15:54:06.060695",
+ "creation": "2025-04-24 09:47:05.478005",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_luy6",
-  "template",
-  "details",
-  "amended_from"
+  "section_break_unm3",
+  "amended_from",
+  "detail"
  ],
  "fields": [
   {
-   "fieldname": "section_break_luy6",
+   "fieldname": "section_break_unm3",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "template",
-   "fieldtype": "Data",
-   "label": "Template",
-   "unique": 1
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "DAILY CHECK POINT",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   },
   {
-   "fieldname": "details",
+   "fieldname": "detail",
    "fieldtype": "Table",
-   "label": "Details",
-   "options": "defects list"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "hidden": 1,
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Template List",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "hidden": 1,
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Template List",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
+   "label": "Detail",
+   "options": "Check Point",
+   "width": "0"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-04-24 13:43:56.917512",
+ "modified": "2025-04-24 11:28:04.227672",
  "modified_by": "Administrator",
  "module": "client",
- "name": "Template List",
- "naming_rule": "By fieldname",
+ "name": "DAILY CHECK POINT",
  "owner": "Administrator",
  "permissions": [
   {
