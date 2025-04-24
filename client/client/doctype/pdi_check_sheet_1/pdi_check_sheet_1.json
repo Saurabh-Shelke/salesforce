@@ -2,20 +2,15 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:quality_template",
- "creation": "2025-04-23 15:43:28.545474",
+ "creation": "2025-04-24 16:55:10.610406",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_ec0w",
   "quality_template",
   "details",
   "amended_from"
  ],
  "fields": [
-  {
-   "fieldname": "section_break_ec0w",
-   "fieldtype": "Section Break"
-  },
   {
    "fieldname": "quality_template",
    "fieldtype": "Data",
@@ -40,9 +35,8 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2025-04-23 15:44:40.292447",
+ "modified": "2025-04-24 16:59:17.476167",
  "modified_by": "Administrator",
  "module": "client",
  "name": "PDI CHECK SHEET 1",
@@ -59,7 +53,6 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],
