@@ -2,20 +2,15 @@
  "actions": [],
  "allow_rename": 1,
  "autoname": "field:template",
- "creation": "2025-04-23 15:54:06.060695",
+ "creation": "2025-04-24 15:22:34.608430",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_luy6",
   "template",
   "details",
   "amended_from"
  ],
  "fields": [
-  {
-   "fieldname": "section_break_luy6",
-   "fieldtype": "Section Break"
-  },
   {
    "fieldname": "template",
    "fieldtype": "Data",
@@ -31,18 +26,6 @@
   {
    "fieldname": "amended_from",
    "fieldtype": "Link",
-   "hidden": 1,
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Template List",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "hidden": 1,
    "label": "Amended From",
    "no_copy": 1,
    "options": "Template List",
@@ -52,9 +35,8 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2025-04-24 13:43:56.917512",
+ "modified": "2025-04-24 15:26:23.727943",
  "modified_by": "Administrator",
  "module": "client",
  "name": "Template List",
@@ -71,7 +53,6 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
-   "submit": 1,
    "write": 1
   }
  ],
